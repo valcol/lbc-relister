@@ -1,0 +1,51 @@
+# EditorConfig - Configuration pour tous les éditeurs
+# https://editorconfig.org
+
+# Fichier racine
+root = true
+
+# Configuration par défaut pour tous les fichiers
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Fichiers JavaScript
+[*.js]
+indent_style = space
+indent_size = 2
+max_line_length = 120
+
+# Fichiers JSON
+[*.json]
+indent_style = space
+indent_size = 2
+
+# Fichiers HTML
+[*.html]
+indent_style = space
+indent_size = 2
+
+# Fichiers CSS
+[*.css]
+indent_style = space
+indent_size = 2
+
+# Fichiers Markdown
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off
+
+# Fichiers YAML
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# Fichiers de configuration
+[{package.json,.eslintrc.json}]
+indent_style = space
+indent_size = 2
+

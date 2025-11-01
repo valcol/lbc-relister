@@ -1,0 +1,42 @@
+{
+  "name": "lbc-relister",
+  "version": "7.1.0",
+  "description": "Extension Chrome pour relister rapidement vos annonces sur leboncoin.fr",
+  "type": "module",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production rollup -c",
+    "build:dev": "cross-env NODE_ENV=development rollup -c",
+    "dev": "cross-env NODE_ENV=development rollup -c --watch",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "chrome-extension",
+    "leboncoin",
+    "republish",
+    "automation",
+    "relister"
+  ],
+  "author": "valcol",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.8",
+    "@rollup/plugin-image": "^3.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-replace": "^6.0.2",
+    "@rollup/plugin-terser": "^0.4.4",
+    "cross-env": "^10.1.0",
+    "eslint": "^8.0.0",
+    "rollup": "^4.52.5",
+    "rollup-plugin-copy": "^3.5.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@sentry/browser": "^10.20.0"
+  }
+}
