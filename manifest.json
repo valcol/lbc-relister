@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "LBC ReLister",
-  "version": "1.0.0",
-  "description": "Republiez vos annonces rapidement sur leboncoin.fr",
+  "name": "Leboncoin ReLister",
+  "version": "1.0.1",
+  "description": "Republiez vos annonces rapidement sur Leboncoin",
   "icons": {
     "16": "icons/icon-16.png",
     "48": "icons/icon-48.png",
